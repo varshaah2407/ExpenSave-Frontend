@@ -1,0 +1,36 @@
+.table {
+    margin-left: 20rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    /* box-shadow: 199px; */
+    color: #25a8ff;
+}
+
+.header {
+    height: 3vh;
+    font-size: 5rem;
+    font-weight: 200;
+    /* margin-right: 2rem; */
+}
+
+
+.header1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tablebody {
+    /* background-color: #25a8ff !important; */
+    background-color: #88cbf2;
+    /* background-color: #e2f4ff; #aad6f0; */
+    font-size: 2vh;
+}
+
+.categories {
+    font-size:1.5rem;
+    padding: 0;
+}
+
+.tdata {
+    padding-left: 1.6vw;
+}
