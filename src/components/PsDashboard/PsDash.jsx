@@ -241,7 +241,7 @@ export default function PsDash({ loggedin, id }) {
             />
 
             <Form.Group className="mt-3" controlId="ControlInput4">
-              <Form.Label>Category</Form.Label>
+              <Form.Label className="modal-cat">Category</Form.Label>
               <Form.Select
                 aria-label="Select"
                 placeholder="Select A Category"
@@ -262,14 +262,14 @@ export default function PsDash({ loggedin, id }) {
             </Form.Group>
           </Form>
           <button
-            className="bg-[#22a7ff] px-3 py-3 rounded text-white"
+            className="bg-[#22a7ff] px-3 py-3 rounded text-white close-but"
             variant="secondary"
             onClick={handleClose}
           >
             Close
           </button>
           <button
-            className="bg-[#22a7ff] px-3 py-3 rounded text-white"
+            className="bg-[#22a7ff] px-3 py-3 rounded text-white add-exp"
             variant="primary"
             onClick={async () => {
               handleClose();

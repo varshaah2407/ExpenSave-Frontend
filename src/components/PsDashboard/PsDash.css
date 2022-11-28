@@ -34,3 +34,16 @@
 .tdata {
     padding-left: 1.6vw;
 }
+
+.modal-cat {
+    margin-right: 2rem;
+}
+
+.close-but {
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+
+.add-exp {
+    margin-left: 4rem;
+}
