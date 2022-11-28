@@ -4,13 +4,18 @@ import {Typography, Card, CardContent,Grid, TextField} from '@material-ui/core';
 import { shadows } from '@mui/system';
 import emailjs from 'emailjs-com';
 import contact from '../../image/contact-us.svg';
+import shakeHands from '../../image/shake-hands.svg';
 import './Help.css';
 
 const Result = () => {
     return (
-        <div className='mt-[200px] ml-[65px] animate-bounce get-back'>
-            <h2 className='whitespace-nowrap text-3xl font-bold text-[#000] '>We will get back shortly</h2>
-        </div>
+        // <div className='mt-[250px] ml-[65px] animate-bounce get-back'>
+        //     <h2 className='whitespace-nowrap text-3xl font-bold text-[#000] '>We will get back shortly</h2>
+        // </div>
+        <div className='animate-bounce get-back getbacktext'>
+          <h2 className='whitespace-nowrap text-3xl font-bold text-[#000] '>We will get back shortly</h2>
+          {/* <img className="im" src={shakeHands}></img> */}
+        </div>  
     )
 }
 

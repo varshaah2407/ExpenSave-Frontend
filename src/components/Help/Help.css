@@ -11,7 +11,7 @@ h2 {
 .im{
     margin-top: 3rem;
     width: 45rem;
-    height: 42rem;
+    height: 45rem;
     display: inline-block; /* change the default display type to inline-block */
     overflow: hidden;
 }
@@ -34,4 +34,9 @@ h2 {
     padding-right: 3rem;
     margin-right: 2rem; */
     height: 10rem;
+    padding-right: 4rem;
+}
+
+.getbacktext {
+    margin-left: 5rem;
 }
